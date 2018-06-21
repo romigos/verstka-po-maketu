@@ -71,7 +71,7 @@ main .main_about{
     display: flex;
     padding: 100px 0 100px 0;
 }
-.about_right {
+.about_right{
     margin-left: 175px;
 }
 .about_right h1{
@@ -84,7 +84,7 @@ main .main_about{
     color: #6c6c6c;
 }
 .about_right li{
-    background: url("img/mark.png") 0px no-repeat;
+    background: url("img/mark.png") 0 no-repeat;
     padding-left: 25px;
     margin-top: 10px;
 }
