@@ -91,16 +91,26 @@ main .main_about{
 .mw-100{
     min-width: 100px;
 }
-.main_about{
-    flex-direction: column;
-}
-.about_right{
+
+
+
+
+
+
+.main_team{
+    background: black;
     text-align: center;
-    margin-left: 0;
+    padding: 100px 0 165px 0;
+    color: white;
+    }
+
+.main_team h1{
+    font-size: 44px;
+    padding-bottom: 30px;
 }
-.about_right li{
-    text-align: left;
-}
+
+
+
 
 @media screen and (max-width: 1200px) {
     nav {
@@ -148,7 +158,8 @@ main .main_about{
 
 
 
-    main .main_welcome{
+
+main .main_welcome{
     padding: 50px 0 50px 0;
 }
 main .main_welcome p{
@@ -167,7 +178,7 @@ main .main_welcome h1{
     text-align: center;
     margin-left: 0;
 }
-.about_right{
+.about_right li{
     text-align: left;
 }
     .about_right h1{
