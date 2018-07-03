@@ -106,10 +106,26 @@ main .main_about{
 
 .main_team h1{
     font-size: 44px;
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
-
-
+.line {
+    width: 100px;
+    height: 3px;
+    background: #fcac45;
+    position: relative;
+    left: 44.9%;
+    margin-bottom: 84px;
+}
+.photo{
+    background: gray;
+    width: 124px;
+    height: 124px;
+    border-radius: 70%;
+    margin: 20px auto;
+ }
+.team_cards{
+    display: flex;
+}
 
 
 @media screen and (max-width: 1200px) {
